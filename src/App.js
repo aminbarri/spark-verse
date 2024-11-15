@@ -1,11 +1,17 @@
 
 import './App.css';
-import { Header ,Container,Footer } from './Components/index';
+import {Container } from './Components/index';
+import { Header,Footer, Hero, MostPopular  } from './sections/index';
+
 function App() {
   return (
     <>
     <Header />
-    <Container />
+    <Container>
+     <Hero />
+     <MostPopular />
+    </Container>
+    
     <Footer />
     </>
   );

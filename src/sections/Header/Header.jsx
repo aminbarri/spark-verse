@@ -1,11 +1,11 @@
 import './header.css'
 import logo from '../../assets/images/logo.png' 
-import NavItem , {NavItemDropDown} from '../NavItem/NavItem'
+import NavItem , {NavItemDropDown} from '../../Components/NavItem/NavItem'
 const Header =()=>{
 
 
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg container">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     

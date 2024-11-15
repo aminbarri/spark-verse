@@ -1,0 +1,7 @@
+.main-container{
+
+    padding: var(--padding-pramiry);
+    background-color: var(--color-con-bk);
+    border-radius: var(--border-reduis-pramiry);
+    color: var(--color_ligth);
+}

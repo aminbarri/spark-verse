@@ -1,0 +1,7 @@
+.nav-link{
+    color: var(--color_ligth);
+}
+
+.nav-class{
+    min-height: 100px;
+}

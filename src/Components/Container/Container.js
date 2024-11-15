@@ -1,10 +1,12 @@
 import './container.css'
 
-const Container =()=>{
+const Container =(props)=>{
 
 
     return (
-      <div>container</div>   
+     <div className='container main-container'>
+     {props.children}
+     </div>
     )
 }
 

@@ -1,0 +1,37 @@
+.hero_main{
+   
+}
+
+.hero_text{
+    color: var(--color_ligth); 
+    background-color: var(--color_main);
+    border-radius: var(--border-reduis-pramiry);
+    
+    padding: var(--padding-pramiry);
+}
+.hero_title>em{
+    color: rgb(197, 117, 11);
+}
+.hero_title{
+    font-size: 1.2em;
+    margin-bottom: calc(var(--margin-pramiry)/2);
+    font-weight: bold;
+    max-width: 500px;
+    color: var(--color_ligth);
+}
+.hero_buton{
+    background-color:var(--color-buton1);
+    padding: 10px;
+    width: max-content;
+    border-radius: 10px;
+}
+.hero_buton>a {
+    color: var(--color_ligth);
+    text-decoration: none;
+}
+.hero_buton:hover{
+    background-color:var(--color-buton2);
+}
+.hero_buton>a:hover{
+    color: rgb(34, 32, 32);
+}
