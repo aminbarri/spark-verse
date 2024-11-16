@@ -1,0 +1,7 @@
+.section-warpper{
+    background-color:var(--color_dark) ;
+    border-radius: var(--border-reduis-pramiry);
+    padding: var(--padding-pramiry);
+    margin-top: var(--margin-pramiry);
+}
+
