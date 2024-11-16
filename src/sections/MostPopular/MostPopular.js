@@ -1,31 +1,30 @@
 import "./MostPopular.css" 
 
-import {Card} from '../../Components/index'
+import {Card,SectionHeader,SectionWrapper} from '../../Components/index';
 
+
+import MostPopularData from '../../data/mostPopularData';
 
 const MostPopular=()=>{
+
+   
+    const cards=MostPopularData.map(card =>{
+       return <Card image={card.image}  title={card.title} category={card.category}  rate={card.rate} download={card.download}/>
+    })
     return(
        <>
-       <div className='section-warpper'>
-            <div className="section-header">
-                <h4>MostPopular</h4>
-            </div>
+          <SectionWrapper>
+            <SectionHeader>Most Popular</SectionHeader>
             <div className="section-body">
                 <div className="most-popular-item">
                 
-                  <Card image="game1"  title='fortnite' category="category 1"  rate='4.6' download='1M'/>
-                  <Card image="game2" title='freefire' category="category 2"  rate='3.6' download='1.2M' />
-                  <Card image="game3" title='pubg' category="category 3"  rate='2.9' download='100K' />
-                  <Card image="game4" title='fifa' category="category 4"  rate='1' download='5M' />
-                  <Card image="game1"  title='fortnite' category="category 1"  rate='4.6' download='1M'/>
-                  <Card image="game2" title='freefire' category="category 2"  rate='3.6' download='1.2M' />
-                  <Card image="game3" title='pubg' category="category 3"  rate='2.9' download='100K' />
-                  <Card image="game4" title='fifa' category="category 4"  rate='1' download='5M' />
+                    {cards}
+                
 
                  
                 </div>
             </div>
-       </div>
+         </SectionWrapper>
        </>
     );
 }
