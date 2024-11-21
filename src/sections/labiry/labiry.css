@@ -1,0 +1,4 @@
+.labiry-item{
+    display: flex;
+    flex-wrap: wrap;
+}

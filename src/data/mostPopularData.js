@@ -15,7 +15,7 @@ import Overwatch from '../assets/images/Overwatch.png'
 
 
 const MostPopularData=[
-    {id:"most_popular_item_1",  image: game, title:'fortnite', category:"category 1" , rate:'4.6', download:'1M'},
+    {id:"most_popular_item_.",  image: game, title:'fortnite', category:"category 1" , rate:'4.6', download:'1M'},
      {id: "most_popular_item_1", image: Fortnite, title: "Fortnite", category: "Category 1", rate: "4.6", download: "1M"},
     {id: "most_popular_item_2", image: CallofDuty, title: "Call of Duty", category: "Category 2", rate: "4.8", download: "2M"},
     {id: "most_popular_item_3", image: Minecraft, title: "Minecraft", category: "Category 3", rate: "4.7", download: "3M"},

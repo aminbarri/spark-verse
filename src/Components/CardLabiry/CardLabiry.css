@@ -1,0 +1,29 @@
+
+.labiry-card{
+    flex: 1 1 100%;
+}
+.items-card{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color_ligth);
+    padding: calc(var( --padding-pramiry)/2) 0;
+}
+h4{
+    font-size: 1rem;
+}
+
+
+img{
+    width: 100px;
+}
+
+.download{
+    text-decoration: none;
+    color: var(--color_ligth);
+    padding: calc( var(--padding-pramiry)/4);
+    border-radius:var(--border-reduis-secondary) ;
+    background-color: var(--color-con-bk);
+}
+.download:hover{
+    background-color: var(--color-hover);
+}

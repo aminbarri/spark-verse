@@ -1,7 +1,7 @@
 
 import './App.css';
 import {Container } from './Components/index';
-import { Header,Footer, Hero, MostPopular  } from './sections/index';
+import { Header,Footer, Hero, MostPopular,Labiry  } from './sections/index';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
     <Container>
      <Hero />
      <MostPopular />
+     <Labiry />
     </Container>
     
     <Footer />
