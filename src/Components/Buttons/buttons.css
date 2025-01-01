@@ -1,0 +1,28 @@
+.hero_buton{
+    background-color:var(--color-buton1);
+    padding: 10px;
+    width: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero_buton>a {
+    color: var(--color_ligth);
+    text-decoration: none;
+}
+.hero_buton:hover{
+    background-color:var(--color-buton2);
+}
+.hero_buton>a:hover{
+    color: rgb(34, 32, 32);
+}
+
+.download{
+    text-decoration: none;
+    color: var(--color_ligth);
+    padding: calc( var(--padding-pramiry)/4);
+    border-radius:var(--border-reduis-secondary) ;
+    background-color: var(--color-con-bk);
+}
+.download:hover{
+    background-color: var(--color-hover);
+}

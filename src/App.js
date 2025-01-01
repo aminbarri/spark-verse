@@ -1,20 +1,30 @@
 
 import './App.css';
 import {Container } from './Components/index';
-import { Header,Footer, Hero, MostPopular,Labiry  } from './sections/index';
+import {BrowserRouter as Router ,Route ,Routes} from 'react-router-dom';
+import { Header,Footer  } from './sections/index';
+import {Home} from './Pages/index'
+import {Profile} from './Pages/index'
+
 
 function App() {
   return (
-    <>
-    <Header />
-    <Container>
-     <Hero />
-     <MostPopular />
-     <Labiry />
-    </Container>
+    <Router>
+      <>
+      
+      <Header />
+      <Container>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/profile' element={ <Profile />} />
+     
+        </Routes>
     
-    <Footer />
-    </>
+      </Container>
+      
+      <Footer />
+      </>
+    </Router>
   );
 }
 
