@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import './header.css'
 import logo from '../../assets/images/logo.png' 
-import NavItem , {NavItemDropDown} from '../../Components/NavItem/NavItem'
+import NavItem  from '../../Components/NavItem/NavItem'
 const Header =()=>{
 
 

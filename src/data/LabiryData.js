@@ -1,11 +1,7 @@
 import game from '../assets/images/game.png'
 import Fortnite from '../assets/images/Fortnite.png'
 import CallofDuty from '../assets/images/CallofDuty.png'
-import Minecraft from '../assets/images/Minecraft.png'
-import ApexLegends from '../assets/images/ApexLegends.png'
-import LeagueofLegends from '../assets/images/LeagueofLegends.png'
-import PUBG from '../assets/images/PUBG.png'
-import Overwatch from '../assets/images/Overwatch.png'
+
 
 
 

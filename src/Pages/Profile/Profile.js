@@ -1,5 +1,5 @@
 import './profile.css'
-import {  Hero, MostPopular,Labiry  } from '../../sections/index';
+import {  MostPopular  } from '../../sections/index';
 
 const Profile =(props)=>{
 

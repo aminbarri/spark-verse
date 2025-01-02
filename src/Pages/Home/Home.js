@@ -1,5 +1,5 @@
 import './home.css'
-import { Footer, Hero, MostPopular,Labiry  } from '../../sections/index';
+import {  Hero, MostPopular,Labiry  } from '../../sections/index';
 
 const Home =(props)=>{
 

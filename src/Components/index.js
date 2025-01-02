@@ -10,8 +10,7 @@ export {SecondryButtons} from './Buttons/Buttons';
 
 
 
-
-export {NavItemDropDown as NavItemDropDown} from './NavItem/NavItem';
+export {NavItemDropDown} from './NavItem/NavItem';
 
 
 

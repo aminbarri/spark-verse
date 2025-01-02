@@ -1,8 +1,6 @@
 import './CardLabiry.css'
 
-import { FaStar } from "react-icons/fa6";
 
-import { FaDownload } from "react-icons/fa";
 import {SecondryButtons} from '../index';
 const CardLabiry =(props)=>{
 
